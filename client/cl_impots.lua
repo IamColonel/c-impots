@@ -29,10 +29,7 @@ function checkPlayerJob()
     end
 end
 
-Citizen.CreateThread(function()
-    while true do
-        Wait(Config.Time)
-        checkPlayerJob()
-    end
+RegisterNetEvent("C_Impots:checkPlayerJob")
+AddEventHandler("C_Impots:checkPlayerJob", function()
+    checkPlayerJob()
 end)
-
