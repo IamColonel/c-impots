@@ -2,7 +2,7 @@ fx_version 'cerulean'
 games { 'gta5' };
 
 shared_scripts {
-    "config.lua",
+    "Config.lua",
 }
 
 client_scripts {
